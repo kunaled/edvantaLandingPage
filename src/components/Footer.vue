@@ -230,6 +230,7 @@ h3 {
   .footer-brand, .footer-navigation, .footer-legal,.footer-contact {
     max-width: 100%;
     text-align: center;
+  
   }
 
   .footer-brand img {
@@ -240,7 +241,8 @@ h3 {
     padding: 0;
   }
   .footer-contact p {
-    text-align: right;
+    text-align: left;
+    
   }
 }
 

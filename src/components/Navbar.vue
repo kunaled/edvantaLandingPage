@@ -212,8 +212,12 @@ if (isLargeScreen.value) {
 @media (max-width: 768px) {
   .view-case-study {
     font-size: 0.9rem; /* Adjust font size for medium screens */
-    width: 200px; /* Adjust button width */
-    margin-left: 30px;
+         margin: auto;
+  width: 50%;
+  }
+  .schedule-call{
+      margin: auto;
+      width: 50%;
   }
 }
 
@@ -225,7 +229,15 @@ if (isLargeScreen.value) {
      /* Adjust button width */
   }
 }
-
+  .view-case-study {
+    font-size: 0.9rem; /* Adjust font size for medium screens */
+         margin: auto;
+  width: 50%;
+  }
+  .schedule-call{
+      margin: auto;
+      width: 50%;
+  }
 .trusted-logos {
   display: flex;
   flex-wrap: wrap; /* Allows logos to wrap on small screens */
@@ -243,6 +255,15 @@ if (isLargeScreen.value) {
 @media (max-width: 1200px) {
   .trusted-logos {
     padding-top: 50px;
+  }
+    .view-case-study {
+    font-size: 0.9rem; /* Adjust font size for medium screens */
+         margin: auto;
+  width: 50%;
+  }
+  .schedule-call{
+      margin: auto;
+      width: 50%;
   }
 }
 
