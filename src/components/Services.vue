@@ -76,6 +76,7 @@
     flex-direction: column; /* Stacks images vertically on mobile */
     gap: 20px; /* Adjusted gap for smaller screens */
     padding-top: 20px;
+    margin:auto;
   }
 
   .image-container img {

@@ -28,7 +28,7 @@ if (isLargeScreen.value) {
 
 <template>
   <div class="main-container">
-    <nav class="navbar">
+    <nav class="navbar" style="display: relative;">
       <div class="logo">
         <img src="../../public/Group.png" alt="Logo">
         <h2>edvanta</h2>
@@ -267,7 +267,7 @@ if (isLargeScreen.value) {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .nav-links {
     flex-direction: column;
     align-items: left;
@@ -276,7 +276,7 @@ if (isLargeScreen.value) {
     
   }
   #hidebtn{
-    display: none;
+    display: absolute;
   }
   .hamburger-container {
   display: flex;
@@ -309,16 +309,17 @@ if (isLargeScreen.value) {
 
 .dropdown-menu {
   position: absolute;
-  top: 40px; /* Adjust based on your layout */
-  right: 0;
+  top: 80px; /* Adjust based on your layout */
+  right: 0;  /* Aligns the menu to the right */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width:100%;
-  height:100%;
+  width: auto; /* Let it auto adjust width based on content */
   z-index: 99;
   display: flex;
-  justify-content: center;
-  background-color: white;
+  justify-content: flex-end; /* Aligns the content to the right */
+  background-color: rgb(247, 247, 245);
+  border-radius: 14px;
 }
+
 
 .dropdown-menu ul {
   list-style: none;
